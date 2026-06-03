@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "models": {
+    "llm": {
+      "name": "Phi-3-mini-4k-instruct-Q4_K_M",
+      "url": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/Phi-3-mini-4k-instruct-Q4_K_M.gguf"
+    },
+    "whisper": {
+      "name": "ggml-base",
+      "url": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/ggml-base.bin"
+    }
+  },
+  "voices": {
+    "en_US": {
+      "onnx": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/en_US-lessac-medium.onnx",
+      "config": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/en_US-lessac-medium.onnx.json"
+    },
+    "de_DE": {
+      "onnx": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/de_DE-thorsten-medium.onnx",
+      "config": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/de_DE-thorsten-medium.onnx.json"
+    },
+    "es_ES": {
+      "onnx": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/es_ES-sharvard-medium.onnx",
+      "config": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/es_ES-sharvard-medium.onnx.json"
+    },
+    "fr_FR": {
+      "onnx": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/fr_FR-upmc-medium.onnx",
+      "config": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/fr_FR-upmc-medium.onnx.json"
+    },
+    "it_IT": {
+      "onnx": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/it_IT-riccardo-x_low.onnx",
+      "config": "https://huggingface.co/YOUR_HF_USERNAME/YOUR_MODEL_REPO/resolve/main/it_IT-riccardo-x_low.onnx.json"
+    }
+  }
+}
