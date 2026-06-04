@@ -1,35 +1,58 @@
 {
   "version": "1.0.0",
-  "models": {
-    "llm": {
-      "name": "Phi-3-mini-4k-instruct-Q4_K_M",
+
+  "models": [
+    {
+      "id": "phi3",
+      "type": "llm",
+      "displayName": "Phi-3 Mini LLM",
+      "sizeBytes": 2566242304,
       "url": "https://huggingface.co/Ritz18/my-models/resolve/main/Phi-3-mini-4k-instruct-Q4_K_M.gguf"
     },
-    "whisper": {
-      "name": "ggml-base",
+    {
+      "id": "whisper",
+      "type": "stt",
+      "displayName": "Whisper STT",
+      "sizeBytes": 155189248,
       "url": "https://huggingface.co/Ritz18/my-models/resolve/main/ggml-base.bin"
     }
-  },
+  ],
+
   "voices": {
-    "en_US": {
-      "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/en_US-lessac-medium.onnx",
-      "config": "https://huggingface.co/Ritz18/my-models/resolve/main/en_US-lessac-medium.onnx.json"
-    },
-    "de_DE": {
-      "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/de_DE-thorsten-medium.onnx",
-      "config": "https://huggingface.co/Ritz18/my-models/resolve/main/de_DE-thorsten-medium.onnx.json"
-    },
-    "es_ES": {
-      "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/es_ES-sharvard-medium.onnx",
-      "config": "https://huggingface.co/Ritz18/my-models/resolve/main/es_ES-sharvard-medium.onnx.json"
-    },
-    "fr_FR": {
-      "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/fr_FR-upmc-medium.onnx",
-      "config": "https://huggingface.co/Ritz18/my-models/resolve/main/fr_FR-upmc-medium.onnx.json"
-    },
-    "it_IT": {
-      "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/it_IT-riccardo-x_low.onnx",
-      "config": "https://huggingface.co/Ritz18/my-models/resolve/main/it_IT-riccardo-x_low.onnx.json"
-    }
+    "displayName": "Piper TTS",
+    "sizeBytes": 322961408,
+
+    "items": [
+      {
+        "id": "en_US",
+        "displayName": "English",
+        "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/en_US-lessac-medium.onnx",
+        "config": "https://huggingface.co/Ritz18/my-models/resolve/main/en_US-lessac-medium.onnx.json"
+      },
+      {
+        "id": "de_DE",
+        "displayName": "German",
+        "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/de_DE-thorsten-medium.onnx",
+        "config": "https://huggingface.co/Ritz18/my-models/resolve/main/de_DE-thorsten-medium.onnx.json"
+      },
+      {
+        "id": "es_ES",
+        "displayName": "Spanish",
+        "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/es_ES-sharvard-medium.onnx",
+        "config": "https://huggingface.co/Ritz18/my-models/resolve/main/es_ES-sharvard-medium.onnx.json"
+      },
+      {
+        "id": "fr_FR",
+        "displayName": "French",
+        "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/fr_FR-upmc-medium.onnx",
+        "config": "https://huggingface.co/Ritz18/my-models/resolve/main/fr_FR-upmc-medium.onnx.json"
+      },
+      {
+        "id": "it_IT",
+        "displayName": "Italian",
+        "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/it_IT-riccardo-x_low.onnx",
+        "config": "https://huggingface.co/Ritz18/my-models/resolve/main/it_IT-riccardo-x_low.onnx.json"
+      }
+    ]
   }
 }
