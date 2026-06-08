@@ -1,12 +1,11 @@
 {
   "version": "1.0.0",
-
   "models": [
     {
       "id": "phi3",
       "type": "llm",
       "displayName": "Phi-3 Mini LLM",
-      "subtitleDisplay": "Speech recognition",
+     "subtitleDisplay": "Your conversation brain",
       "sizeBytes": 2566242304,
       "url": "https://huggingface.co/Ritz18/my-models/resolve/main/Phi-3-mini-4k-instruct-Q4_K_M.gguf"
     },
@@ -14,13 +13,13 @@
       "id": "whisper",
       "type": "stt",
       "displayName": "Whisper STT",
-      "subtitleDisplay": "Your conversation brain",
+      "subtitleDisplay": "Speech recognition",
       "sizeBytes": 155189248,
       "url": "https://huggingface.co/Ritz18/my-models/resolve/main/ggml-base.bin"
-    }
-  ],
-
-  "voices": {
+    },
+    {
+      "id":"tts",
+      "type":"tts",
     "displayName": "Piper TTS",
     "subtitleDisplay": "Voice synthesis",
     "sizeBytes": 322961408,
@@ -58,4 +57,5 @@
       }
     ]
   }
+  ]
 }
