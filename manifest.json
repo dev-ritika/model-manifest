@@ -10,54 +10,53 @@
       "url": "https://huggingface.co/Ritz18/my-models/resolve/main/ggml-base.bin"
     },
     {
-      "id":"tts",
-      "type":"tts",
-    "displayName": "Piper TTS",
-    "subtitleDisplay": "Voice synthesis",
-    "sizeBytes": 308123770,
-
-    "items": [
-      {
-        "id": "en_US",
-        "displayName": "English",
-        "onnxSizeBytes":"63200000",
-        "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/en_US-lessac-medium.onnx",
-        "configSizeBytes":"4890",
-        "config": "https://huggingface.co/Ritz18/my-models/resolve/main/en_US-lessac-medium.onnx.json"
-      },
-      {
-        "id": "de_DE",
-        "displayName": "German",
-        "onnxSizeBytes":"63200000",
-        "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/de_DE-thorsten-medium.onnx",
-        "configSizeBytes":"4820",
-        "config": "https://huggingface.co/Ritz18/my-models/resolve/main/de_DE-thorsten-medium.onnx.json"
-      },
-      {
-        "id": "es_ES",
-        "displayName": "Spanish",
-        "onnxSizeBytes":"76900000",
-        "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/es_ES-sharvard-medium.onnx",
-        "configSizeBytes":"4900",
-        "config": "https://huggingface.co/Ritz18/my-models/resolve/main/es_ES-sharvard-medium.onnx.json"
-      },
-      {
-        "id": "fr_FR",
-        "displayName": "French",
-        "onnxSizeBytes":"76700000",
-        "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/fr_FR-upmc-medium.onnx",
-        "configSizeBytes":"5000",
-        "config": "https://huggingface.co/Ritz18/my-models/resolve/main/fr_FR-upmc-medium.onnx.json"
-      },
-      {
-        "id": "it_IT",
-        "displayName": "Italian",
-        "onnxSizeBytes":"28100000",
-        "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/it_IT-riccardo-x_low.onnx",
-        "configSizeBytes":"4160",
-        "config": "https://huggingface.co/Ritz18/my-models/resolve/main/it_IT-riccardo-x_low.onnx.json"
-      }
-    ]
-  }
+      "id": "tts",
+      "type": "tts",
+      "displayName": "Piper TTS",
+      "subtitleDisplay": "Voice synthesis",
+      "sizeBytes": 308123770,
+      "items": [
+        {
+          "id": "en_US",
+          "displayName": "English",
+          "onnxSizeBytes": 63200000,
+          "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/en_US-lessac-medium.onnx",
+          "configSizeBytes": 4890,
+          "config": "https://huggingface.co/Ritz18/my-models/resolve/main/en_US-lessac-medium.onnx.json"
+        },
+        {
+          "id": "de_DE",
+          "displayName": "German",
+          "onnxSizeBytes": 63200000,
+          "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/de_DE-thorsten-medium.onnx",
+          "configSizeBytes": 4820,
+          "config": "https://huggingface.co/Ritz18/my-models/resolve/main/de_DE-thorsten-medium.onnx.json"
+        },
+        {
+          "id": "es_ES",
+          "displayName": "Spanish",
+          "onnxSizeBytes": 76900000,
+          "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/es_ES-sharvard-medium.onnx",
+          "configSizeBytes": 4900,
+          "config": "https://huggingface.co/Ritz18/my-models/resolve/main/es_ES-sharvard-medium.onnx.json"
+        },
+        {
+          "id": "fr_FR",
+          "displayName": "French",
+          "onnxSizeBytes": 76700000,
+          "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/fr_FR-upmc-medium.onnx",
+          "configSizeBytes": 5000,
+          "config": "https://huggingface.co/Ritz18/my-models/resolve/main/fr_FR-upmc-medium.onnx.json"
+        },
+        {
+          "id": "it_IT",
+          "displayName": "Italian",
+          "onnxSizeBytes": 28100000,
+          "onnx": "https://huggingface.co/Ritz18/my-models/resolve/main/it_IT-riccardo-x_low.onnx",
+          "configSizeBytes": 4160,
+          "config": "https://huggingface.co/Ritz18/my-models/resolve/main/it_IT-riccardo-x_low.onnx.json"
+        }
+      ]
+    }
   ]
 }
