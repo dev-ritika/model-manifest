@@ -10,6 +10,14 @@
       "url": "https://huggingface.co/Ritz18/my-models/resolve/main/ggml-base.bin"
     },
     {
+      "id": "phi3",
+      "type": "llm",
+      "displayName": "Phi-3 Mini LLM",
+     "subtitleDisplay": "Your conversation brain",
+      "sizeBytes": 2566242304,
+      "url": "https://huggingface.co/Ritz18/my-models/resolve/main/Phi-3-mini-4k-instruct-Q4_K_M.gguf"
+    },
+    {
       "id": "tts",
       "type": "tts",
       "displayName": "Piper TTS",
